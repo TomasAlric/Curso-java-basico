@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class KeyboardDataReading {
 
     public static void main(String[] args) {
-        /*
+
        //Complete
         Scanner scan = new Scanner(System.in);
 
@@ -28,11 +28,9 @@ public class KeyboardDataReading {
         //Height
         System.out.println("Enter your height: ");
         double height = scan.nextDouble();
-        System.out.println("Your age is " + age);*/
+        System.out.println("Your age is " + age);
 
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Enter your fist name, age, height, number of child, have a pet");
+        System.out.println("Enter your first name, age, height, number of child, have a pet");
         String firstName1 = scan.next();
         int age1 = scan.nextInt();
         double height1 = scan.nextDouble();
@@ -44,8 +42,6 @@ public class KeyboardDataReading {
         System.out.println("Your height is " + height1);
         System.out.println("Your number of child is " + nChild);
         System.out.println("Have a pet? " + havePet);
-
-
 
     }
 }
