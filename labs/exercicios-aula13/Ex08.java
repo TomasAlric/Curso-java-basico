@@ -20,6 +20,5 @@ public class Ex08 {
         double salary = valuePerHour * hoursPerMonth;
 
         System.out.println("The salary is: " + salary);
-
     }
 }
