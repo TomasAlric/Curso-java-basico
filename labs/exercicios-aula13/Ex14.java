@@ -16,6 +16,5 @@ public class Ex14 {
         double time = sizeArchive / speedInternet;
 
         System.out.println("Time of download is: " + time);
-
     }
 }

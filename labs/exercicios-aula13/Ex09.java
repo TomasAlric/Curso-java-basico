@@ -2,7 +2,7 @@ package com.tomas;
 
 import java.util.Scanner;
 
-public class Ex9 {
+public class Ex09 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
